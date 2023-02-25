@@ -1,14 +1,14 @@
-import './App.css';
-import VideoPlayer from './components/VideoPlayer';
+import './App.css'
+import FeedVideos from './components/FeedVideos'
 
-function App() {
+function App () {
   return (
-    <div className="App">
+    <div className='App'>
       <main>
-        <VideoPlayer />
+        <FeedVideos />
       </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
