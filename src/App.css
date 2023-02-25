@@ -12,6 +12,7 @@ main {
   border: 1px solid #fff;
   display: block;
   height: auto;
+  max-width: 375px;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
