@@ -4,18 +4,36 @@
 }
 
 .wrapper {
+  position: relative;
 }
 
 .player {
-  width: 62px;
-  height: 62px;
-  background-image: url('../../assets/player.png');
   background-color: transparent;
-  border: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url('../../assets/player.png');
   background-position: center center;
-  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0;
+  height: 62px;
   inset: 0;
   margin: auto;
+  position: absolute;
+  width: 62px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.actions {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.action {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
