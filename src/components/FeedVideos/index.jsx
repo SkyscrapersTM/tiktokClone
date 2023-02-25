@@ -11,7 +11,7 @@ const VIDEOS = [
     shares: 10,
     comments: 340,
     songTitle: 'sonido original - lil peep',
-    albumCover:
+    albumImage:
       'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/57feef9a562af82f89140133316ca6e9~c5_100x100.jpeg?x-expires=1677445200&x-signature=t3ZImcK%2BylLYPjEBFCAeC9odVqM%3D',
     src: 'https://player.vimeo.com/external/342571552.hd.mp4?s=6aa6f164de3812abadff3dde86d19f7a074a8a66&profile_id=175&oauth2_token_id=57447761'
   },
@@ -24,7 +24,7 @@ const VIDEOS = [
     shares: 20,
     comments: 140,
     songTitle: 'sonido original - lil peep',
-    albumCover:
+    albumImage:
       'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/57feef9a562af82f89140133316ca6e9~c5_100x100.jpeg?x-expires=1677445200&x-signature=t3ZImcK%2BylLYPjEBFCAeC9odVqM%3D',
     src: 'https://player.vimeo.com/external/342571552.hd.mp4?s=6aa6f164de3812abadff3dde86d19f7a074a8a66&profile_id=175&oauth2_token_id=57447761'
   }

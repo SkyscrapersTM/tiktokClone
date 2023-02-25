@@ -1,0 +1,20 @@
+.song {
+  width: 100%;
+  display: flex;
+}
+
+.marquee {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 4s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
